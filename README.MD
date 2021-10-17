@@ -7,6 +7,19 @@ You need to restore pacakages. Learn more: https://docs.microsoft.com/en-us/nuge
 ## Projects configuration:
 You need rebuild every project for generation object-files for gRPC.
 
+## Import database structure
+Name: dbmigration_import
+Schema: public
+Tables:
+1. companies (id, name, location);
+2. devices (id, name, company_id, os_id);
+3. os (id, name, vendor);
+4. prices (id, shop_id, device_id, value);
+5. shops (id, name, phone).
+
+## Export database structure
+See dbmigration_export.db in Export/Boot
+
 ##Network configuration:
 1. All IP/domains must be reachable for clients.
 2. All ports must be open for clients.
