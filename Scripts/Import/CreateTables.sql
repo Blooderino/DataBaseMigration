@@ -1,4 +1,4 @@
--- 1. Создание таблицы ОС
+-- 1. РЎРѕР·РґР°РЅРёРµ С‚Р°Р±Р»РёС†С‹ РћРЎ
 CREATE SEQUENCE os_id_seq;
 CREATE TABLE IF NOT EXISTS public.os
 (
@@ -8,7 +8,7 @@ CREATE TABLE IF NOT EXISTS public.os
 );
 ALTER SEQUENCE os_id_seq OWNED BY public.os.id;
 
--- 2. Создание таблицы компаний
+-- 2. РЎРѕР·РґР°РЅРёРµ С‚Р°Р±Р»РёС†С‹ РєРѕРјРїР°РЅРёР№
 CREATE SEQUENCE companies_id_seq;
 CREATE TABLE IF NOT EXISTS public.companies
 (
@@ -18,7 +18,7 @@ CREATE TABLE IF NOT EXISTS public.companies
 );
 ALTER SEQUENCE companies_id_seq OWNED BY public.companies.id;
 
--- 3. Создание таблицы устройств
+-- 3. РЎРѕР·РґР°РЅРёРµ С‚Р°Р±Р»РёС†С‹ СѓСЃС‚СЂРѕР№СЃС‚РІ
 CREATE SEQUENCE devices_id_seq;
 CREATE TABLE IF NOT EXISTS public.devices
 (
@@ -29,7 +29,7 @@ CREATE TABLE IF NOT EXISTS public.devices
 );
 ALTER SEQUENCE devices_id_seq OWNED BY public.devices.id;
 
--- 4. Создание таблицы магазинов
+-- 4. РЎРѕР·РґР°РЅРёРµ С‚Р°Р±Р»РёС†С‹ РјР°РіР°Р·РёРЅРѕРІ
 CREATE SEQUENCE shops_id_seq;
 CREATE TABLE IF NOT EXISTS public.shops
 (
@@ -39,7 +39,7 @@ CREATE TABLE IF NOT EXISTS public.shops
 );
 ALTER SEQUENCE shops_id_seq OWNED BY public.shops.id;
 
--- 5. Создание общего прайс-листа
+-- 5. РЎРѕР·РґР°РЅРёРµ РѕР±С‰РµРіРѕ РїСЂР°Р№СЃ-Р»РёСЃС‚Р°
 CREATE SEQUENCE prices_id_seq;
 CREATE TABLE IF NOT EXISTS public.prices
 (
