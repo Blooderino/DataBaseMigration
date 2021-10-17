@@ -25,4 +25,4 @@ You need rebuild every project for generation object-files for gRPC.
 4. Give that user read/write permissions: rabbitmqctl set_permissions -p database-migration dbmigrator ".*" ".*" ".*"
 
 ## gRPC TLS trust configuration:
-In project untrusted/invalid certificates are available. Only for educational proposes only!
+In project untrusted/invalid certificates are available. For educational proposes only!
