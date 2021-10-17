@@ -1,0 +1,1 @@
+CREATE DATABASE dbmigration_import WITH ENCODING 'UTF8' LC_COLLATE='English_United Kingdom' LC_CTYPE='English_United Kingdom';
