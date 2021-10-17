@@ -9,7 +9,9 @@ You need rebuild every project for generation object-files for gRPC.
 
 ## Import database structure
 Name: dbmigration_import
+
 Schema: public
+
 Tables:
 1. companies (id, name, location);
 2. devices (id, name, company_id, os_id);
