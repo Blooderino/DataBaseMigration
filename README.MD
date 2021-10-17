@@ -20,7 +20,7 @@ Tables:
 ## Export database structure
 See dbmigration_export.db in Export/Boot
 
-##Network configuration:
+## Network configuration:
 1. All IP/domains must be reachable for clients.
 2. All ports must be open for clients.
 
