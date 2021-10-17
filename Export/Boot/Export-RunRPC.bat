@@ -1,0 +1,1 @@
+start DBMigration-Export.exe --run-remote-procedure-call

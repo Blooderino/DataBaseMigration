@@ -1,0 +1,8 @@
+# Ignore derictories
+.vs/
+.vscode/
+packages/
+Import/bin/
+Import/obj/
+Export/bin/
+Export/obj/

@@ -1,0 +1,1 @@
+start DBMigration-Import.exe --run-message-queue

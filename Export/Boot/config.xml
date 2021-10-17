@@ -1,0 +1,21 @@
+<export>
+    <socket>
+        <address>127.0.0.1</address>
+		<port>54545</port>
+    </socket>
+    <message-queue>
+		<address>localhost</address>
+		<port>5672</port>
+		<username>dbmigrator</username>
+		<password>dbmigrator</password>
+		<channel>database-migration</channel>
+    </message-queue>
+	<remote-procedure-call>
+		<address>localhost</address>
+		<port>5001</port>
+	</remote-procedure-call>
+    <database>
+        <path>dbmigration_export.db</path>
+        <table>device_catalog</table>
+    </database>
+</export>

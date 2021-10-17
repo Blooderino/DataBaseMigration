@@ -1,0 +1,23 @@
+<import> 
+	<socket> 
+       <port>54545</port> 
+	</socket>
+	<message-queue>
+		<address>localhost</address>
+		<port>5672</port>
+		<username>dbmigrator</username>
+		<password>dbmigrator</password>
+		<channel>database-migration</channel>
+	</message-queue>
+	<remote-procedure-call>
+		<address>localhost</address>
+		<port>5001</port>
+	</remote-procedure-call>
+	<database> 
+		<address>localhost</address> 
+		<port>5432</port> 
+		<username>postgres</username> 
+		<password>postgres</password> 
+		<name>dbmigration_import</name> 
+	</database> 
+</import>

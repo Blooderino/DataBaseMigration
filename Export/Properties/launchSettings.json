@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "Export": {
+      "commandName": "Project",
+      "commandLineArgs": "--run-remote-procedure-call"
+    }
+  }
+}

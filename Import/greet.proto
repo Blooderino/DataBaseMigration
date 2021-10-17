@@ -1,0 +1,24 @@
+﻿syntax = "proto3";
+ 
+option csharp_namespace = "DataBaseMigration";
+ 
+package dbmigration;
+ 
+// Определение сервиса
+service Greeter
+{
+  // Отправка сообщения
+  rpc Send (Request) returns (Reply);
+}
+
+// Запрос на сервер 
+message Request 
+{
+	string data = 1;
+}
+ 
+// Ответ от сервера
+message Reply 
+{
+	string data = 1;
+}
